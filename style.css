@@ -1,0 +1,127 @@
+body {
+  background-color: #ddd;
+}
+.cont-judul {
+  background-color: gold;
+  text-align: center;
+  border: 1px solid #23caca;
+  text-shadow: 4px 4px 9px black;
+  font-variant: inherit;
+  color: aqua;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+h1 {
+  font-size: 300%;
+}
+
+.whatsapp {
+  width: 70px;
+  position: fixed;
+  z-index: 9;
+  margin-left: 75%;
+  margin-top: 450px;
+}
+img.icon {
+  position: absolute;
+  width: 5%;
+  top: 20px;
+  margin-left: 17%;
+  z-index: 3;
+}
+.video {
+  padding-bottom: 60%;
+}
+.isi {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+.colom {
+  margin: 20px auto;
+  background-color: #ddd;
+}
+.service {
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 20px auto;
+}
+.service.satu {
+  font-family: sans-serif;
+  color: #fff;
+  background-color: rgb(238, 5, 5);
+}
+.service.dua {
+  font-family: sans-serif;
+  color: #fff;
+  background-color: rgb(4, 73, 4);
+}
+.service.tiga {
+  font-family: sans-serif;
+  color: #fff;
+  background-color: rgb(7, 7, 241);
+}
+h5 {
+  width: 80%;
+  margin-left: 10%;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #fff;
+  text-align: center;
+  background-color: blue;
+  border: 5px solid;
+  border-radius: 50px;
+  margin-top: 5px;
+  border-color: darkorange;
+  font-size: 20px;
+}
+h5.about {
+  width: 50%;
+  margin-left: 25%;
+}
+img.star {
+  width: 10%;
+  padding-top: 5px;
+}
+
+/* latihan 3 */
+.colom-dua {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.thumbnail img {
+  width: 100%;
+  margin: 20px auto;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.thumbnail {
+  width: 50%;
+}
+h4 {
+  width: 30%;
+  text-align: center;
+  border: 3px solid;
+  border-color: black;
+}
+footer {
+  padding: 15px 0;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+/* responsive */
+
+@media (min-width: 600px) {
+  .colom {
+    display: flex;
+    justify-content: space-between;
+  }
+  .service {
+    width: 30%;
+  }
+  .thumbnail {
+    width: 25%;
+  }
+}
